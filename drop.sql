@@ -1,0 +1,17 @@
+drop.sql
+
+
+
+drop table CONTACTS				CASCADE CONSTRAINTS;	
+drop table COUNTRIES            CASCADE CONSTRAINTS;
+drop table CUSTOMERS            CASCADE CONSTRAINTS;
+drop table EMPLOYEES            CASCADE CONSTRAINTS;
+drop table INVENTORIES          CASCADE CONSTRAINTS;
+drop table LOCATIONS            CASCADE CONSTRAINTS;
+drop table ORDERS               CASCADE CONSTRAINTS;
+drop table ORDERITEMS           CASCADE CONSTRAINTS;
+drop table PRODUCTCATEGORIES    CASCADE CONSTRAINTS;
+drop table PRODUCTS             CASCADE CONSTRAINTS;
+drop table REGIONS              CASCADE CONSTRAINTS;
+drop table WAREHOUSES           CASCADE CONSTRAINTS;
+drop table DEPARTMENT           CASCADE CONSTRAINTS;
